@@ -34,5 +34,5 @@
 #include "systems/MapFormationSystem.h"
 #include "systems/PlayerMovementSystem.h"
 
-//Инициализация сущностей/компонентов/систем
+//Initialization
 std::unique_ptr<ecs::World> GameInit();

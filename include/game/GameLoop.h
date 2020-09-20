@@ -10,5 +10,5 @@
 #include "GameInit.h"
 #include "game/lib/ECS/ECS.h"
 
-//Игровой цикл
+//Main game loop
 void GameLoop(std::unique_ptr<ecs::World> world);
