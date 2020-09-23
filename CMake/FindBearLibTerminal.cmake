@@ -49,7 +49,7 @@ set(BLT_DEFINITIONS "")
 
 # Handle _FOUND tags and print success/failure
 include(FindPackageHandleStandardArgs)
-find_package_handle_standard_args(BLT DEFAULT_MSG BLT_LIBRARY BLT_INCLUDE_DIR)
+find_package_handle_standard_args(BearLibTerminal DEFAULT_MSG BLT_LIBRARY BLT_INCLUDE_DIR)
 
 # Don't display in GUI
 mark_as_advanced(BLT_LIBRARY BLT_INCLUDE_DIR)
